@@ -19,6 +19,7 @@
 </template>
 <script>
 import UsersService from '@/services/UsersService';
+
 export default {
     data(){
         return {
@@ -54,4 +55,6 @@ export default {
 };
 </script>
 <style scoped>
+
+
 </style>

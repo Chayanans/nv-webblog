@@ -1,7 +1,7 @@
 <template>
 <div>
     <h1>Create User</h1>
-    <form v-on:submit.prevent = "CreateUser">
+    <form v-on:submit.prevent = "createUser">
         <p>Name : <input type="text" v-model="user.name"></p>
         <p>Lastname : <input type="text" v-model="user.lastname"></p>
         <p>Email : <input type="text" v-model="user.email"></p>
@@ -19,6 +19,7 @@
 </template>
 <script>
 import UsersService from '@/services/UsersService'
+
 export default {
     data() {
         return {
@@ -46,4 +47,5 @@ export default {
 }
 </script>
 <style scoped>
+
 </style>
